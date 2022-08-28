@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            tourism
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <h1>TOUR BOOKING FORM</h1>
+        
+    </head>
+    <body>
+        <h2>Book Your Tour Tickets!</h2>
+        <form>
+            <fieldset>
+                <legend>Personalia:</legend>
+            
+            
+            <label for="code">Package code : </label>
+            <input type="text" id="code" name="code" required><br><br>
+            
+                
+            
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" required>&emsp;
+        
+        
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="age">Age (Between 18-60):</label>
+            <input type="number" id="age" name="age" min="18" max="60" required><br><br>
+            <label for="mail">E-Mail:</label>
+            <input type="text" id="mail" name="mail"><br><br>
+            <label for="no">Phone No:</label>
+            <input type="text" id="no" name="no" placeholder="+91" required><br><br>
+        </fieldset>
+        <label for="no">Pickup :</label><br><br>
+        <input type="radio" id="no" name="no" value="Airport">
+        <label for="no">Airport</label>&emsp;
+        <input type="radio" id="no" name="no" value="Home">
+        <label for="no">Hotel</label>&emsp;
+        <input type="radio" id="no" name="no" value="House">
+        <label for="no">House</label><br><br>
+        <label for="pickadd">Pickup Address:</label>
+         <textarea></textarea><br><br>
+         <label for="no">Drop :</label><br><br>
+         <input type="radio" id="no" name="no" value="Airport">
+         <label for="no">Airport</label>&emsp;
+         <input type="radio" id="no" name="no" value="Home">
+         <label for="no">Hotel</label>&emsp;
+         <input type="radio" id="no" name="no" value="House">
+         <label for="no">House</label><br><br>
+         <label for="pickadd">Drop Address:</label>
+          <textarea></textarea><br><br>
+          <fieldset>
+          <legend>Vehicle Type :&emsp;(for travelling inside the country)</legend><br>
+          <input type="radio" id="no" name="no" value="car"><img src="car.jpg" width="50" height="50">
+         <label for="no">Car</label>&emsp;&emsp;
+         <input type="radio" id="no" name="no" value="jeep"><img src="jeep.jpg" width="50" height="50">
+         <label for="no">Jeep</label>&emsp;&emsp;
+         <input type="radio" id="no" name="no" value="cycle"><img src="cycle.webp" width="50" height="50">
+         <label for="no">Cycle</label>&emsp;&emsp;
+         <input type="radio" id="no" name="no" value="couch"><img src="coach.jpg" width="50" height="50">
+         <label for="no">Couch</label>&emsp;&emsp;<br><br><br>
+          
+        </fieldset>
+        <label for="p">No of passengers:</label>
+        <input type="number" id="p" name="p" min="1" max="25" required><br><br><br>
+        <label for="date">Date of departure:</label>
+  <input type="date" id="date" name="date"><br><br>
+        <label for="add msg">Additional Message:</label>
+          <textarea></textarea><br><br>
+ 
+       
+      
+        <button type="submit"  value="book" onclick="alert('happy travel')">BOOK!</button>
+       
+        
+          </form> 
+
+    </body>
+</html>
